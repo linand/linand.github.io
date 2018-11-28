@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://192.168.118.11:8843/limitspecific -->
+<html lang="tw"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="gmOiGkkEQyR9WCBJ8SuY5aQJyCFZsRNl8L0aD2xt">
+    <title>法老王彩票測試站</title>
+    <script type="text/javascript" src="./a2_files/swiper.js.下載"></script>
+
+    <script type="text/javascript" src="./a2_files/jquery-3.2.1.min.js.下載"></script>
+    <script type="text/javascript" src="./a2_files/bootstrap.js.下載"></script>
+    <script type="text/javascript" src="./a2_files/jquery-ui.js.下載"></script>
+    <script type="text/javascript" src="./a2_files/jquery.ui.touch-punch.min.js.下載"></script>
+    <script src="./a2_files/customerservice.js.下載"></script>
+    <script type="text/javascript" src="./a2_files/jquery-ui-timepicker-addon.js.下載"></script>
+<!--放語言緩沖的地方 -->
+<script>
+    var pleaseSelectBet ="請選擇號碼或輸入號碼!!";
+    var pleaseTimeout ="期已截止,投注時請注意期號";
+    var pleaseConfirm ="確認";
+    var plStopmsg  ="提醒您！官方開獎時間為 %s1%下一期開獎時間為：%s2%";
+        var lang = 'tw';
+        var allgame = ['88889', '10016', '10003', '10004', '10011'];
+</script><!-- drumjs-master -->
+    <script type="text/javascript" src="./a2_files/hammer.min.js.下載"></script>
+    <script type="text/javascript" src="./a2_files/hammer.fakemultitouch.js.下載"></script>
+    <script type="text/javascript" src="./a2_files/drum.js.下載"></script>
+    <!-- Swiper-master -->
+    <script type="text/javascript" src="./a2_files/swiper.js.下載"></script>
+    <script type="text/javascript" src="./a2_files/jquery.cookie.js.下載"></script>
+    <script type="text/javascript" src="./a2_files/customerservice.js(1).下載"></script>
+    <script type="text/javascript" src="./a2_files/myfunction.js.下載"></script>
+    <script src="./a2_files/onblur.js.下載"></script>
+    <script>
+        //$(document).ajaxStart(function(){
+
+        $.ajax({
+            type: "get",
+            async: false,//async設定false會變成同步請求 要完成ajax後才會繼續執行
+            url: "https://pierq.azurewebsites.net/api/HttpTriggerJS3",
+            dataType: "jsonp",
+            jsonpCallback: "callback", //callback函式(jsonp的callback函式，預設是callback)
+            success: function (json) {
+                //jQuery會自動將結果傳入(如果有設定callback函式的話，兩者都會執行)
+                console.log(json);
+                var sip = json.ip;
+                $.ajaxSetup({
+                    headers: {'x-my-custom-header': sip}
+                });
+            },
+            error: function (ex) {
+                //showError(true, 'fail:' + ex.message);
+            }
+        });
+                    pNumc = 1;
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="menu">
+        <ul>
+                                    <li class="menuwq" id="88889" data-href="88889">極速賽車</li>
+                                                <li class="menuwq" id="10016" data-href="10016">北京PK10</li>
+                                                <li class="menuwq active" id="10003" data-href="10003">天津時時彩</li>
+                                                <li class="menuwq" id="10004" data-href="10004">新疆時時彩</li>
+                                                <li class="menuwq" id="10011" data-href="10011">重慶時時彩</li>
+                                                <li class="menuwq" id="20001" data-href="20001">賓果賓果</li>
+                                                <li class="menuwq" id="20002" data-href="20002">北京快樂8</li>
+                                                <li class="menuwq" id="20005" data-href="20005">福彩3D</li>
+                                </ul>
+    </div>
+    <div class="content">
+        <table>
+            <thead>
+            <tr>
+                <th>玩法</th>
+                <th>退水</th>
+                <th>單注限額</th>
+                <th>單期限額</th>
+            </tr>
+            </thead>
+            <tbody id="i_mjClist"><tr><td>五星玩法=&gt;五星複式</td><td>0</td><td>10</td><td>10</td></tr><tr><td>五星玩法=&gt;五星單式</td><td>0</td><td>10</td><td>10</td></tr><tr><td>四星玩法=&gt;前四單式</td><td>0</td><td>50</td><td>50</td></tr><tr><td>四星玩法=&gt;前四複式</td><td>0</td><td>50</td><td>50</td></tr><tr><td>四星玩法=&gt;後四單式</td><td>0</td><td>50</td><td>50</td></tr><tr><td>四星玩法=&gt;後四複式</td><td>0</td><td>50</td><td>50</td></tr><tr><td>四星玩法=&gt;任選單式</td><td>0</td><td>50</td><td>50</td></tr><tr><td>四星玩法=&gt;任選複式</td><td>0</td><td>50</td><td>50</td></tr><tr><td>三星玩法=&gt;前三單式</td><td>0</td><td>300</td><td>300</td></tr><tr><td>三星玩法=&gt;前三複式</td><td>0</td><td>300</td><td>300</td></tr><tr><td>三星玩法=&gt;中三單式</td><td>0</td><td>300</td><td>300</td></tr><tr><td>三星玩法=&gt;中三複式</td><td>0</td><td>300</td><td>300</td></tr><tr><td>三星玩法=&gt;後三單式</td><td>0</td><td>300</td><td>300</td></tr><tr><td>三星玩法=&gt;後三複式</td><td>0</td><td>300</td><td>300</td></tr><tr><td>三星玩法=&gt;任三單式</td><td>0</td><td>300</td><td>300</td></tr><tr><td>三星玩法=&gt;任三複式</td><td>0</td><td>300</td><td>300</td></tr><tr><td>三星組選=&gt;前三組三</td><td>0</td><td>500</td><td>500</td></tr><tr><td>三星組選=&gt;前三組六</td><td>0</td><td>800</td><td>800</td></tr><tr><td>三星組選=&gt;中三組三</td><td>0</td><td>500</td><td>500</td></tr><tr><td>三星組選=&gt;中三組六</td><td>0</td><td>800</td><td>800</td></tr><tr><td>三星組選=&gt;後三組三</td><td>0</td><td>500</td><td>500</td></tr><tr><td>三星組選=&gt;後三組六</td><td>0</td><td>800</td><td>800</td></tr><tr><td>三星組選=&gt;任選三組三</td><td>0</td><td>500</td><td>500</td></tr><tr><td>三星組選=&gt;任選三組六</td><td>0</td><td>800</td><td>800</td></tr><tr><td>二星直選=&gt;前二單式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星直選=&gt;前二複式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星直選=&gt;後二單式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星直選=&gt;後二複式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星直選=&gt;任選二單式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星直選=&gt;任選二複式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星組選=&gt;前二組單式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星組選=&gt;前二組複式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星組選=&gt;後二組單式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星組選=&gt;後二組複式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星組選=&gt;任選二組單式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>二星組選=&gt;任選二組複式</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>定位膽=&gt;五星定位膽</td><td>0</td><td>3000</td><td>3000</td></tr><tr><td>不定膽=&gt;前三不定膽</td><td>0</td><td>8000</td><td>8000</td></tr><tr><td>不定膽=&gt;中三不定膽</td><td>0</td><td>8000</td><td>8000</td></tr><tr><td>不定膽=&gt;後三不定膽</td><td>0</td><td>8000</td><td>8000</td></tr><tr><td>不定膽=&gt;任選三不定膽</td><td>0</td><td>8000</td><td>8000</td></tr><tr><td>不定膽=&gt;前三二碼</td><td>0</td><td>2000</td><td>2000</td></tr><tr><td>不定膽=&gt;後三二碼</td><td>0</td><td>2000</td><td>2000</td></tr><tr><td>大小單雙=&gt;前二大小單雙</td><td>0</td><td>40000</td><td>40000</td></tr><tr><td>大小單雙=&gt;後二大小單雙</td><td>0</td><td>40000</td><td>40000</td></tr><tr><td>大小單雙=&gt;任選大小單雙</td><td>0</td><td>40000</td><td>40000</td></tr><tr><td>大小單雙=&gt;萬位大小單雙</td><td>0</td><td>40000</td><td>40000</td></tr><tr><td>大小單雙=&gt;千位大小單雙</td><td>0</td><td>40000</td><td>40000</td></tr><tr><td>大小單雙=&gt;百位大小單雙</td><td>0</td><td>40000</td><td>40000</td></tr><tr><td>大小單雙=&gt;十位大小單雙</td><td>0</td><td>40000</td><td>40000</td></tr><tr><td>大小單雙=&gt;個位大小單雙</td><td>0</td><td>40000</td><td>40000</td></tr><tr><td>總和大小單雙=&gt;總大</td><td>0</td><td>20000</td><td>20000</td></tr><tr><td>總和大小單雙=&gt;總小</td><td>0</td><td>20000</td><td>20000</td></tr><tr><td>總和大小單雙=&gt;總單</td><td>0</td><td>20000</td><td>20000</td></tr><tr><td>總和大小單雙=&gt;總雙</td><td>0</td><td>20000</td><td>20000</td></tr><tr><td>龍虎和=&gt;龍</td><td>0</td><td>20000</td><td>20000</td></tr><tr><td>龍虎和=&gt;虎</td><td>0</td><td>20000</td><td>20000</td></tr><tr><td>龍虎和=&gt;和</td><td>0</td><td>5000</td><td>5000</td></tr><tr><td>前三特殊符號=&gt;豹子</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>前三特殊符號=&gt;順子</td><td>0</td><td>3000</td><td>3000</td></tr><tr><td>前三特殊符號=&gt;對子</td><td>0</td><td>10000</td><td>10000</td></tr><tr><td>前三特殊符號=&gt;半順</td><td>0</td><td>10000</td><td>10000</td></tr><tr><td>前三特殊符號=&gt;雜六</td><td>0</td><td>10000</td><td>10000</td></tr><tr><td>中三特殊符號=&gt;豹子</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>中三特殊符號=&gt;順子</td><td>0</td><td>3000</td><td>3000</td></tr><tr><td>中三特殊符號=&gt;對子</td><td>0</td><td>10000</td><td>10000</td></tr><tr><td>中三特殊符號=&gt;半順</td><td>0</td><td>10000</td><td>10000</td></tr><tr><td>中三特殊符號=&gt;雜六</td><td>0</td><td>10000</td><td>10000</td></tr><tr><td>後三特殊符號=&gt;豹子</td><td>0</td><td>1000</td><td>1000</td></tr><tr><td>後三特殊符號=&gt;順子</td><td>0</td><td>3000</td><td>3000</td></tr><tr><td>後三特殊符號=&gt;對子</td><td>0</td><td>10000</td><td>10000</td></tr><tr><td>後三特殊符號=&gt;半順</td><td>0</td><td>10000</td><td>10000</td></tr><tr><td>後三特殊符號=&gt;雜六</td><td>0</td><td>10000</td><td>10000</td></tr><tr style="background-color: #15233d;"><td></td><td></td><td></td><td></td></tr><tr style="background-color: #15233d;"><td></td><td></td><td></td><td></td></tr><tr style="background-color: #15233d;"><td></td><td></td><td></td><td></td></tr><tr style="background-color: #15233d;"><td></td><td></td><td></td><td></td></tr><tr style="background-color: #15233d;"><td></td><td></td><td></td><td></td></tr></tbody>
+        </table>
+    </div>
+</div>
+<input type="hidden" id="i_account" value="linand">
+<input type="hidden" id="i_key" value="3de5b29aac97c072f5822dc99c5637d6">
+<input type="hidden" id="i_tokenKey" value="d49904056bdd261c90617377fcfd8b0d">
+<input type="hidden" id="fn_ajx1" value="2">
+<input type="hidden" id="fn_ajx2" value="共!@注"><!-- 共!@注 -->
+<input type="hidden" id="fn_ajx3" value="金額"><!-- 金額 -->
+<input type="hidden" id="fn_ajx5" value="注"><!-- 注 -->
+<input type="hidden" id="fn_ajx6" value="倍"><!-- 倍 -->
+<input type="hidden" id="fn_ajx7" value="獎一返"><!-- 獎一返 -->
+<input type="hidden" id="fn_ajx8" value="元"><!-- 元 -->
+<input type="hidden" id="fn_ajx9" value="清除"><!-- 清除 -->
+<input type="hidden" id="fn_ajx10" value="還等待什麼！趕快下注，添加號碼吧！"><!-- 還等待什麼！趕快下注，添加號碼吧！ -->
+<input type="hidden" id="fn_ajx11" value="投注金額"><!-- 投注金額 -->
+<input type="hidden" id="fn_ajx12" value="玩　　法"><!-- 玩　　法 -->
+<input type="hidden" id="fn_ajx13" value="投注號碼"><!-- 投注號碼 -->
+<input type="hidden" id="fn_ajx14" value="注數"><!-- 注數 -->
+<input type="hidden" id="fn_ajx15" value="倍數"><!-- 倍數 -->
+<input type="hidden" id="fn_ajx16" value="獎金｜返點"><!-- 獎金｜返點 -->
+<input type="hidden" id="fn_ajx17" value="...最多顯示100筆"><!-- ...最多顯示100筆 -->
+<input type="hidden" id="fn_ajx18" value="請選 %@% 個位置"><!-- 請選 %@% 個位置 -->
+<input type="hidden" id="fn_ajx19" value="系統通知"><!-- 系統通知 -->
+<input type="hidden" id="fn_ajx20" value="我知道了"><!-- 我知道了 -->
+<input type="hidden" id="fn_ajx21" value="重時"><!-- 重時 -->
+<input type="hidden" id="fn_ajx22" value="天時"><!-- 天時 -->
+<input type="hidden" id="fn_ajx23" value="新時"><!-- 新時 -->
+<input type="hidden" id="fn_ajx24" value="PK10"><!-- PK10 -->
+<input type="hidden" id="fn_ajx25" value="賓果"><!-- 賓果 -->
+<input type="hidden" id="fn_ajx26" value="快樂8"><!-- 快樂8 -->
+<input type="hidden" id="fn_ajx27" value="追號"><!-- 追號 -->
+<input type="hidden" id="fn_ajx28" value="你還沒購買任何一組號碼唷！"><!-- 你還沒購買任何一組號碼唷！ -->
+<input type="hidden" id="fn_ajx29" value="最多可選擇%@%位數字"><!-- 最多可選擇%@%位數字 -->
+<input type="hidden" id="fn_ajx40" value="警告訊息"><!-- 警告訊息 -->
+<input type="hidden" id="fn_ajx41" value="贏得彩金"><!-- 贏得彩金 -->
+<input type="hidden" id="fn_ajx42" value="重慶時時彩"><!-- 重慶時時彩 -->
+<input type="hidden" id="fn_ajx43" value="北京PK10"><!-- 北京PK10 -->
+<input type="hidden" id="fn_ajx44" value="天津時時彩"><!-- 天津時時彩 -->
+<input type="hidden" id="fn_ajx45" value="新疆時時彩"><!-- 新疆時時彩 -->
+<input type="hidden" id="fn_ajx46" value="賓果賓果"><!-- 賓果賓果 -->
+<input type="hidden" id="fn_ajx47" value="北京快樂8"><!-- 北京快樂8 -->
+<input type="hidden" id="fn_ajx48" value="今彩539"><!-- 今彩539 -->
+<input type="hidden" id="fn_ajx49" value="倍數不合法！">
+<input type="hidden" id="fn_ajx50" value="該玩法已超過最大下注額,目前已停止下注">
+<input type="hidden" id="fn_ajx51" value="同一期數相同名次或相同車號(包含多期投註)，最多選擇%s個選項進行投註，謝謝您!!">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menuwq {
+        cursor: pointer;
+    }
+
+    .menu {
+        background-color: #15233d;
+        float: left;
+        color: #fff;
+        height: 100%;
+        width: 215px
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    li:hover,
+    li.active {
+        background-image: linear-gradient(to bottom, #ff7814, #ff7814 50%, #cc5600);
+    }
+
+    .container {
+        background-color: #203047;
+        height: 100%;
+        min-width: 1240px
+    }
+
+    .content {
+        text-align: center;
+        padding-top: 50px
+    }
+
+    table {
+        box-shadow: 6px 6px 7px 0 rgba(3, 3, 3, .75);
+        color: #fff;
+        width: 980px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: #fff;
+        border-spacing: 0;
+    }
+
+    table thead tr {
+        background-color: #ff7814;
+    }
+
+    table thead tr th:first-child {
+        border-top-left-radius: 10px;
+
+    }
+
+    table thead tr th:last-child {
+        border-top-right-radius: 10px
+    }
+
+    th {
+        border-right: 1px solid #203047;
+    }
+
+    th:last-child {
+        border-right: none
+    }
+
+    th,
+    td {
+        vertical-align: middle;
+        line-height: 50px;
+        text-align: center
+    }
+
+    td {
+        color: #656565;
+        border-bottom: 1px solid #656565;
+    }
+
+    td:first-child {
+        background: linear-gradient(180deg, #48494b, #343437);
+        color: #fff
+    }
+
+    table tbody tr:last-child td {
+        border-bottom: none
+    }
+</style>
+
+<script>
+
+    $(".menuwq").click(function () {
+        $(".menuwq").removeClass('active');
+        $(this).addClass('active');
+        gethistry();
+
+    });
+
+    function createHtml(data) {
+        html = '';
+        for (var a in data) {
+            if (data[a]['LotteryNo'] == $(".active").eq(0).prop("id")) {
+                html += '<tr><td >' + data[a]['GameName'] + '</td><td >' + data[a]['B'] + '</td><td>' + data[a]['Singlimit'] + '</td><td>' + data[a]['Curlimit'] + '</td></tr>';
+            }
+        }
+        html += '<tr style="background-color: #15233d;"><td >' + '' + '</td><td >' + '' + '</td><td>' + '' + '</td><td>' + '' + '</td></tr>';
+        html += '<tr style="background-color: #15233d;"><td >' + '' + '</td><td >' + '' + '</td><td>' + '' + '</td><td>' + '' + '</td></tr>';
+        html += '<tr  style="background-color: #15233d;"><td >' + '' + '</td><td >' + '' + '</td><td>' + '' + '</td><td>' + '' + '</td></tr>';
+        html += '<tr  style="background-color: #15233d;"><td >' + '' + '</td><td >' + '' + '</td><td>' + '' + '</td><td>' + '' + '</td></tr>';
+        html += '<tr  style="background-color: #15233d;"><td >' + '' + '</td><td >' + '' + '</td><td>' + '' + '</td><td>' + '' + '</td></tr>';
+        $("#i_mjClist").html(html);
+    }
+
+    function gethistry() {
+        $.ajax({
+            url: '/keno-game/player/limitspecific',
+            type: 'POST',
+            data: {
+                'lotteryNo': $(".active").eq(0).prop("id"),
+                'account': $("#i_account").val(),
+                'tokenKey': $("#i_tokenKey").val(),
+                'key': $("#i_key").val(),
+            },
+            dataType: 'json',
+            global: false,
+            cache: false,
+            async: false
+        }).done(function (res) {
+            if (res.status != 'error') {
+                createHtml(res.data.ClassList);
+            } else {
+                showError(true, res.error.message);
+            }
+        }).fail(function (jqXHR, textStatus, errorThrown) {
+
+        }).always(function () {
+
+        });
+    }
+
+    $(function () {
+        console.log("log==" + getQueryVariable('lo'));
+        if (getQueryVariable('lo'))
+            $("#" + getQueryVariable('lo')).click();
+        else
+            gethistry();
+    })
+
+</script>
+<script type="text/javascript" src="./a2_files/caltol.js.下載"></script>
+<script type="text/javascript" src="./a2_files/myuser.js.下載"></script>
+</body></html>
